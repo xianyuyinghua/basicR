@@ -1,0 +1,21 @@
+Package: basicR
+Title: Basic Plotting and Colour Utilities
+Version: 1.0
+Authors@R: person("zuoanjian", role = c("aut", "cre"), email = "dnf.zuoanjian@gmail.com")
+Author: zuoanjian [aut, cre]
+Maintainer: zuoanjian <dnf.zuoanjian@gmail.com>
+Description: Reusable helper functions for selecting colour palettes and saving
+    figures in common formats. The package is intended to grow with other
+    general-purpose analysis utilities.
+License: MIT + file LICENSE
+Encoding: UTF-8
+RoxygenNote: 7.3.3
+Suggests:
+    ComplexHeatmap,
+    ggsci,
+    magick,
+    RColorBrewer,
+    testthat (>= 3.0.0),
+    unikn,
+    viridis
+Config/testthat/edition: 3
